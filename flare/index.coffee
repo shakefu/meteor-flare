@@ -3,7 +3,7 @@ Router.configure
   notFoundTemplate: 'NotFound'
   loadingTemplate: 'Loading'
 
-Router.route '/', name: 'index'
+Router.route '/', name: 'Index'
 
 if Meteor.isServer
   return
